@@ -9,9 +9,13 @@ class Book
    @title 
   end 
   
+  
+  #setter 
   def author=(author)
     @author = author 
   end 
+  
+  #getter 
  
   def author 
     @author
