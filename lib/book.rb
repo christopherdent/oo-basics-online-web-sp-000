@@ -23,7 +23,7 @@ class Book
  
 #setter
   def page_count=(num)
-    @page_count
+    @page_count = num 
   end 
   
   #getter 
@@ -33,7 +33,7 @@ class Book
   end 
   
   def genre=(genre)
-    @genre 
+    @genre = genre 
   end 
   
   def genre
